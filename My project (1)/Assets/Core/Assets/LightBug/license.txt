@@ -1,0 +1,11 @@
+Model Information:
+* title:	Vyd Spacial Bug
+* source:	https://sketchfab.com/3d-models/vyd-spacial-bug-e9bbefe9949b48a298336c3791a70da8
+* author:	Mateo Hurtado (https://sketchfab.com/hurts113)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Vyd Spacial Bug" (https://sketchfab.com/3d-models/vyd-spacial-bug-e9bbefe9949b48a298336c3791a70da8) by Mateo Hurtado (https://sketchfab.com/hurts113) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
