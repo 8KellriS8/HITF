@@ -502,6 +502,7 @@
 "Assets/Samples/Cinemachine/3.1.6/Shared Assets/Scripts/WrapAround.cs"
 "Assets/Scripts/GrabParenter.cs"
 "Assets/Scripts/HandAnimation.cs"
+"Assets/Scripts/XRSpecificGrab.cs"
 "Assets/UniGLTF/Core/Scripts/Extensions/ArrayExtensions.cs"
 "Assets/UniGLTF/Core/Scripts/Extensions/glTFExtensions.cs"
 "Assets/UniGLTF/Core/Scripts/Extensions/JsonParserExtensions.cs"
