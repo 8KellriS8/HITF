@@ -501,6 +501,8 @@
 "Assets/Samples/Cinemachine/3.1.6/Shared Assets/Scripts/ThirdPersonFollowCameraSideSwapper.cs"
 "Assets/Samples/Cinemachine/3.1.6/Shared Assets/Scripts/TurnAroundPlayer.cs"
 "Assets/Samples/Cinemachine/3.1.6/Shared Assets/Scripts/WrapAround.cs"
+"Assets/Scripts/BugCollider.cs"
+"Assets/Scripts/BugMove.cs"
 "Assets/Scripts/GrabParenter.cs"
 "Assets/Scripts/HandAnimation.cs"
 "Assets/Scripts/ShowShroomHint.cs"
