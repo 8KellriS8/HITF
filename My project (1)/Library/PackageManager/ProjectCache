@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/HITF/My project (1)/Packages/manifest.json
+    m_FilePath: C:/Users/Alex/Documents/GitHub/HITF/My project (1)/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639125700442872583
-    m_Hash: 387123487
+      ticks: 639137633351757153
+    m_Hash: 4191420526
   m_LockFileStatus:
-    m_FilePath: D:/HITF/My project (1)/Packages/packages-lock.json
+    m_FilePath: C:/Users/Alex/Documents/GitHub/HITF/My project (1)/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639125700443751985
-    m_Hash: 1239484174
+      ticks: 639137633351757153
+    m_Hash: 645670593
 m_EmbeddedPackageManifests:
   m_ManifestsStatus:
-    D:/HITF/My project (1)/Packages/xyz.staggartcreations.skyboxes/package.json:
-      m_FilePath: D:/HITF/My project (1)/Packages/xyz.staggartcreations.skyboxes/package.json
+    C:/Users/Alex/Documents/GitHub/HITF/My project (1)/Packages/xyz.staggartcreations.skyboxes/package.json:
+      m_FilePath: C:/Users/Alex/Documents/GitHub/HITF/My project (1)/Packages/xyz.staggartcreations.skyboxes/package.json
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 639114031862466294
+        ticks: 639137633356578048
       m_Hash: 178918830
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/HITF/My project (1)/Packages
+m_ProjectPath: C:/Users/Alex/Documents/GitHub/HITF/My project (1)/Packages
 m_EditorVersion: 6000.0.48f1 (170d2541580d)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@2.0.10
@@ -35,7 +35,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.10
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.ai.navigation@c33a115e9883
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.ai.navigation@c33a115e9883
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -157,7 +157,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.1.6
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.cinemachine@285f38545487
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.cinemachine@285f38545487
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -293,12 +293,12 @@ m_ResolvedPackages:
   resolvedDependencies:
   - name: com.unity.splines
     version: 2.8.0
+  - name: com.unity.settings-manager
+    version: 2.1.0
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.settings-manager
-    version: 2.1.0
   keywords:
   - camera
   - follow
@@ -372,7 +372,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.11.3
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.collab-proxy@e566cd3e7623
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.collab-proxy@e566cd3e7623
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -557,7 +557,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.39
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.ide.rider@4504839d03f7
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.ide.rider@4504839d03f7
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -684,7 +684,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.26
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -794,7 +794,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.14.2
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.inputsystem@be6c4fd0abf5
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.inputsystem@be6c4fd0abf5
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -952,7 +952,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -1042,7 +1042,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.0.4
   source: 2
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.render-pipelines.universal@87d5294b44e1
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.render-pipelines.universal@87d5294b44e1
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal Render Pipeline
@@ -1133,12 +1133,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.collections
     version: 2.5.1
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.1.0
   - name: com.unity.modules.physics
@@ -1204,7 +1204,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.5.1
   source: 2
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.test-framework@388540dd9ce6
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.test-framework@388540dd9ce6
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1342,7 +1342,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.10
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.timeline@7f8b2fb101b6
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.timeline@7f8b2fb101b6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1529,7 +1529,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.ugui@4027c60e8806
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.ugui@4027c60e8806
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1624,7 +1624,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.9
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1748,7 +1748,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.10
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.xr.interaction.toolkit@a4485915657e
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.xr.interaction.toolkit@a4485915657e
   assetPath: Packages/com.unity.xr.interaction.toolkit
   name: com.unity.xr.interaction.toolkit
   displayName: XR Interaction Toolkit
@@ -1972,7 +1972,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.6.0
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.xr.management@ca5b202bb583
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.xr.management@ca5b202bb583
   assetPath: Packages/com.unity.xr.management
   name: com.unity.xr.management
   displayName: XR Plugin Management
@@ -2142,7 +2142,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.14.3
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.xr.openxr@3903c1059bcf
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.xr.openxr@3903c1059bcf
   assetPath: Packages/com.unity.xr.openxr
   name: com.unity.xr.openxr
   displayName: OpenXR Plugin
@@ -2312,7 +2312,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -2379,7 +2379,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -2446,7 +2446,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -2512,7 +2512,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -2579,7 +2579,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -2646,7 +2646,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2713,7 +2713,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2784,7 +2784,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2859,7 +2859,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2926,7 +2926,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2993,7 +2993,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -3060,7 +3060,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -3127,7 +3127,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -3194,7 +3194,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -3261,7 +3261,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -3332,7 +3332,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -3399,7 +3399,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -3474,7 +3474,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -3544,7 +3544,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -3611,7 +3611,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -3694,7 +3694,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3761,7 +3761,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3835,7 +3835,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3902,7 +3902,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3977,7 +3977,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -4052,7 +4052,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -4127,7 +4127,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -4218,7 +4218,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -4289,7 +4289,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -4368,7 +4368,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -4449,7 +4449,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -4516,7 +4516,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -4590,12 +4590,13 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-- packageId: xyz.staggartcreations.skyboxes@file:D:\HITF\My project (1)\Packages\xyz.staggartcreations.skyboxes
+- packageId: xyz.staggartcreations.skyboxes@file:C:\Users\Alex\Documents\GitHub\HITF\My
+    project (1)\Packages\xyz.staggartcreations.skyboxes
   testable: 1
   isDirectDependency: 1
   version: 1.0.0
   source: 3
-  resolvedPath: D:\HITF\My project (1)\Packages\xyz.staggartcreations.skyboxes
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Packages\xyz.staggartcreations.skyboxes
   assetPath: Packages/xyz.staggartcreations.skyboxes
   name: xyz.staggartcreations.skyboxes
   displayName: Stylized Skyboxes
@@ -4662,7 +4663,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -4733,7 +4734,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
+  resolvedPath: C:\Program Files\Unity 6000.0.48f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -4800,7 +4801,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.5.2
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.xr.core-utils@5b282bc7378d
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.xr.core-utils@5b282bc7378d
   assetPath: Packages/com.unity.xr.core-utils
   name: com.unity.xr.core-utils
   displayName: XR Core Utilities
@@ -4888,7 +4889,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638778451955920000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.core-utils@2.5/manual/index.html
@@ -4929,7 +4930,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.12
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.xr.legacyinputhelpers@b7579e86f3b4
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.xr.legacyinputhelpers@b7579e86f3b4
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -5017,7 +5018,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638738251595540000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.legacyinputhelpers@2.1/manual/index.html
@@ -5053,7 +5054,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.2
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.mathematics@8017b507cc74
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.mathematics@8017b507cc74
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -5062,7 +5063,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Unity's C# SIMD math library providing vector types and math functions
     with a shader like syntax.
   errors: []
@@ -5107,7 +5108,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638409134840000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
@@ -5144,7 +5145,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.ext.nunit@031a54704bff
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -5223,7 +5224,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.4
   source: 2
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.render-pipelines.core@cc4eb362a63a
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.render-pipelines.core@cc4eb362a63a
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Scriptable Render Pipeline Core
@@ -5378,12 +5379,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.collections
     version: 2.5.1
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.1.0
   - name: com.unity.modules.physics
@@ -5437,7 +5438,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.4
   source: 2
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.shadergraph@243c7b20d665
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.shadergraph@243c7b20d665
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -5579,12 +5580,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.collections
     version: 2.5.1
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.1.0
   - name: com.unity.modules.physics
@@ -5640,7 +5641,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.render-pipelines.universal-config@5146bcc65e41
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.render-pipelines.universal-config@5146bcc65e41
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal Render Pipeline Config
@@ -5679,12 +5680,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.collections
     version: 2.5.1
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.1.0
   - name: com.unity.modules.physics
@@ -5738,7 +5739,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.8.0
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.splines@30918147f39c
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.splines@30918147f39c
   assetPath: Packages/com.unity.splines
   name: com.unity.splines
   displayName: Splines
@@ -5788,19 +5789,19 @@ m_ResolvedPackages:
     recommended: 2.8.4
     deprecated: []
   dependencies:
+  - name: com.unity.settings-manager
+    version: 1.0.3
   - name: com.unity.mathematics
     version: 1.2.1
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.settings-manager
-    version: 1.0.3
   resolvedDependencies:
+  - name: com.unity.settings-manager
+    version: 2.1.0
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.settings-manager
-    version: 2.1.0
   keywords:
   - spline
   - curve
@@ -5815,7 +5816,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638779131899380000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.splines@2.8/manual/index.html
@@ -5859,7 +5860,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.3
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.searcher@1e17ce91558d
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.searcher@1e17ce91558d
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -5948,7 +5949,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.8.21
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.burst@59eb6f11d242
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.burst@59eb6f11d242
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -6140,7 +6141,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638797336625580000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
@@ -6197,7 +6198,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.5.1
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.collections@56bff8827a7e
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.collections@56bff8827a7e
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -6293,6 +6294,7 @@ m_ResolvedPackages:
     - 2.6.3
     - 2.6.4
     - 2.6.5
+    - 2.6.6
     compatible:
     - 2.5.1
     - 2.5.2
@@ -6305,15 +6307,16 @@ m_ResolvedPackages:
     - 2.6.3
     - 2.6.4
     - 2.6.5
+    - 2.6.6
     recommended: 2.5.7
     deprecated: []
   dependencies:
   - name: com.unity.burst
     version: 1.8.17
-  - name: com.unity.test-framework
-    version: 1.4.5
   - name: com.unity.nuget.mono-cecil
     version: 1.11.4
+  - name: com.unity.test-framework
+    version: 1.4.5
   - name: com.unity.test-framework.performance
     version: 3.0.3
   resolvedDependencies:
@@ -6323,14 +6326,14 @@ m_ResolvedPackages:
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.1.0
   keywords:
@@ -6347,7 +6350,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638621282722800000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collections@2.5/manual/index.html
@@ -6384,7 +6387,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.1
   source: 2
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.rendering.light-transport@307bc27a498f
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.rendering.light-transport@307bc27a498f
   assetPath: Packages/com.unity.rendering.light-transport
   name: com.unity.rendering.light-transport
   displayName: Unity Light Transport Library
@@ -6420,14 +6423,14 @@ m_ResolvedPackages:
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.1.0
   - name: com.unity.modules.terrain
@@ -6480,7 +6483,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.0
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.settings-manager@41738c275190
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.settings-manager@41738c275190
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -6523,7 +6526,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638792046006940000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.settings-manager@2.1/manual/index.html
@@ -6559,7 +6562,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.4
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -6609,7 +6612,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637852971930000000
   documentationUrl: 
@@ -6643,7 +6646,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.1.0
   source: 1
-  resolvedPath: D:\HITF\My project (1)\Library\PackageCache\com.unity.test-framework.performance@92d1d09a72ed
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.test-framework.performance@92d1d09a72ed
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API
@@ -6715,6 +6718,7 @@ m_ResolvedPackages:
     - 3.3.0
     - 3.4.0
     - 3.4.1
+    - 3.4.2
     compatible:
     - 3.1.0
     - 3.2.0
@@ -6722,6 +6726,7 @@ m_ResolvedPackages:
     - 3.3.0
     - 3.4.0
     - 3.4.1
+    - 3.4.2
     recommended: 3.1.0
     deprecated: []
   dependencies:
@@ -6751,7 +6756,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638792643567670000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework.performance@3.1/manual/index.html
