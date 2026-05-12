@@ -12,8 +12,6 @@ public class HandAnimation : MonoBehaviour
     {
         
     }
-
-    // Update is called once per frame
     private void Update()
     {
         animator.SetFloat("Trigger", m_TriggerInput.ReadValue());

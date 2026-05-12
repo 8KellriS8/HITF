@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639137633351757153
-    m_Hash: 4191420526
+      ticks: 639139444391021884
+    m_Hash: 1039071572
   m_LockFileStatus:
     m_FilePath: C:/Users/Alex/Documents/GitHub/HITF/My project (1)/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639137633351757153
-    m_Hash: 645670593
+      ticks: 639139444391165380
+    m_Hash: 4222506748
 m_EmbeddedPackageManifests:
   m_ManifestsStatus:
     C:/Users/Alex/Documents/GitHub/HITF/My project (1)/Packages/xyz.staggartcreations.skyboxes/package.json:
@@ -30,12 +30,12 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/Alex/Documents/GitHub/HITF/My project (1)/Packages
 m_EditorVersion: 6000.0.48f1 (170d2541580d)
 m_ResolvedPackages:
-- packageId: com.unity.ai.navigation@2.0.10
+- packageId: com.unity.ai.navigation@2.0.12
   testable: 0
   isDirectDependency: 1
-  version: 2.0.10
+  version: 2.0.12
   source: 1
-  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.ai.navigation@c33a115e9883
+  resolvedPath: C:\Users\Alex\Documents\GitHub\HITF\My project (1)\Library\PackageCache\com.unity.ai.navigation@734c2c4c5591
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -123,13 +123,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639051061342660000
+  datePublishedTicks: 639094401028640000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: 9f4e312ce74b9f52fe0802ee70aefff75ce6edb8
+    revision: 242ca4c9e872acfa139a1f7497abc44987f0f4b3
     path: 
   unityLifecycle:
     version: 2.0.7
@@ -142,12 +142,11 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n* Warning _Object.GetInstanceID()'' is obsolete:
-    ''GetInstanceID is deprecated_ was logged to the console in Unity 6.2 and newer.\n\n###
-    Changed\n* The unit test scripts are no longer delivered with the package."}'
+  upmReserved: '{"changelog":"### Fixed\n* Fixed exception being thrown on Linux
+    when opening the settings windows."}'
   assetStore:
     productId: 
-  fingerprint: c33a115e988396e6eb96aa3a58e9fa0a937d08d5
+  fingerprint: 734c2c4c5591c25b6d4c6c83bd2f4957c118da40
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.7
@@ -293,12 +292,12 @@ m_ResolvedPackages:
   resolvedDependencies:
   - name: com.unity.splines
     version: 2.8.0
-  - name: com.unity.settings-manager
-    version: 2.1.0
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 2.1.0
   keywords:
   - camera
   - follow
@@ -1133,12 +1132,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.collections
     version: 2.5.1
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.1.0
   - name: com.unity.modules.physics
@@ -4889,7 +4888,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638778451955920000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.core-utils@2.5/manual/index.html
@@ -5018,7 +5017,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638738251595540000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.legacyinputhelpers@2.1/manual/index.html
@@ -5063,7 +5062,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: assets
   description: Unity's C# SIMD math library providing vector types and math functions
     with a shader like syntax.
   errors: []
@@ -5108,7 +5107,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638409134840000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
@@ -5379,12 +5378,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.collections
     version: 2.5.1
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.1.0
   - name: com.unity.modules.physics
@@ -5580,12 +5579,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.collections
     version: 2.5.1
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.1.0
   - name: com.unity.modules.physics
@@ -5680,12 +5679,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.collections
     version: 2.5.1
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.1.0
   - name: com.unity.modules.physics
@@ -5789,19 +5788,19 @@ m_ResolvedPackages:
     recommended: 2.8.4
     deprecated: []
   dependencies:
-  - name: com.unity.settings-manager
-    version: 1.0.3
   - name: com.unity.mathematics
     version: 1.2.1
   - name: com.unity.modules.imgui
     version: 1.0.0
-  resolvedDependencies:
   - name: com.unity.settings-manager
-    version: 2.1.0
+    version: 1.0.3
+  resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 2.1.0
   keywords:
   - spline
   - curve
@@ -5816,7 +5815,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638779131899380000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.splines@2.8/manual/index.html
@@ -6141,7 +6140,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638797336625580000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
@@ -6313,10 +6312,10 @@ m_ResolvedPackages:
   dependencies:
   - name: com.unity.burst
     version: 1.8.17
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.4.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.0.3
   resolvedDependencies:
@@ -6326,14 +6325,14 @@ m_ResolvedPackages:
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.1.0
   keywords:
@@ -6350,7 +6349,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638621282722800000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collections@2.5/manual/index.html
@@ -6423,14 +6422,14 @@ m_ResolvedPackages:
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.1.0
   - name: com.unity.modules.terrain
@@ -6526,7 +6525,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638792046006940000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.settings-manager@2.1/manual/index.html
@@ -6612,7 +6611,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637852971930000000
   documentationUrl: 
@@ -6756,7 +6755,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638792643567670000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework.performance@3.1/manual/index.html

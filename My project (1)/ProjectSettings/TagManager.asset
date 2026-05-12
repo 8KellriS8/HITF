@@ -8,16 +8,19 @@ TagManager:
   - LeftHand
   - Shroom
   - Weapon
+  - Enemy
+  - Obstacle
+  - Plane
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Obstacles
   - Water
   - UI
-  - 
-  - 
-  - 
+  - floor
+  - player
+  - Entity
   - 
   - 
   - 

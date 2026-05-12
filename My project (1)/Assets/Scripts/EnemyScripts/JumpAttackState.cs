@@ -1,0 +1,42 @@
+using UnityEngine;
+
+public class JumpAttackState : BaseState
+{
+    public float timeRemaining = 2f;
+    private bool timerIsRunning = false;
+    public override void EnterState(EnemyStateManager manager)
+    {
+        manager.GetComponentInChildren<Renderer>().enabled = true;
+        manager.outline.OutlineWidth = manager._outlineWidth;
+        timerIsRunning = true;
+        manager.transform.LookAt(manager.player);
+    }
+    public override void ExitState(EnemyStateManager manager)
+    {
+        manager.outline.OutlineWidth = 0;
+    }
+    public override void UpdateState(EnemyStateManager manager)
+    {
+        if (timerIsRunning)
+        {
+            if (timeRemaining > 0)
+            {
+                timeRemaining -= Time.deltaTime;
+            }
+            else
+            {
+                timeRemaining = 0;
+                timerIsRunning = false;
+                manager.SetSpeed(30);
+            }
+        }
+        else
+        {
+            if (manager.GetDistanceToPlayer() < manager.attackRange)
+            {
+                manager.SwitchState(manager.attackState);
+                return;
+            }
+        }
+    }
+}

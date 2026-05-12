@@ -10,13 +10,13 @@
     "C:\\Users\\Alex\\Documents\\GitHub\\HITF\\My project (1)\\Packages\\xyz.staggartcreations.skyboxes\\package.json"
   ],
   "outputs": {
-    "com.unity.ai.navigation@2.0.10": {
+    "com.unity.ai.navigation@2.0.12": {
       "name": "com.unity.ai.navigation",
       "displayName": "AI Navigation",
-      "resolvedPath": "C:\\Users\\Alex\\Documents\\GitHub\\HITF\\My project (1)\\Library\\PackageCache\\com.unity.ai.navigation@c33a115e9883",
-      "fingerprint": "c33a115e988396e6eb96aa3a58e9fa0a937d08d5",
+      "resolvedPath": "C:\\Users\\Alex\\Documents\\GitHub\\HITF\\My project (1)\\Library\\PackageCache\\com.unity.ai.navigation@734c2c4c5591",
+      "fingerprint": "734c2c4c5591c25b6d4c6c83bd2f4957c118da40",
       "editorCompatibility": "6000.0.0a1",
-      "version": "2.0.10",
+      "version": "2.0.12",
       "source": "registry",
       "testable": false
     },

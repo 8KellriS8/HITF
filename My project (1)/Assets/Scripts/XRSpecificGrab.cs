@@ -6,6 +6,7 @@ public class XRSpecificGrab : UnityEngine.XR.Interaction.Toolkit.Interactables.X
     [Header("Attach Points")]
     public Transform leftHandAttachTransform;
     public Transform rightHandAttachTransform;
+    
 
     protected override void OnSelectEntered(SelectEnterEventArgs args)
     {
