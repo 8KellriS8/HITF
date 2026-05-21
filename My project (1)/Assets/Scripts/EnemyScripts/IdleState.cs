@@ -16,6 +16,7 @@ public class IdleState : BaseState
         if (manager.playerScript.noise > 50) 
         {
             manager.SwitchState(manager.jumpAttackState);
+            manager._animator.SetBool("IsTrigered", true);
         }
     }
 }

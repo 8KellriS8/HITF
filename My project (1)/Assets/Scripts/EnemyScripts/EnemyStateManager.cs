@@ -8,13 +8,16 @@ public class EnemyStateManager : MonoBehaviour
     public AttackState attackState = new AttackState();
     public AgroState agroState = new AgroState();
     public JumpAttackState jumpAttackState = new JumpAttackState();
-    [SerializeField] NavMeshAgent _agent;
+    [SerializeField] public NavMeshAgent _agent;
+    [SerializeField] public Animator _animator;
     [SerializeField] public Transform player;
     [SerializeField] public float speed = 1.1f;
     [SerializeField] public float attackRange = 1.25f;
     [SerializeField] public int _outlineWidth = 5;
     public Outline outline;
+    public bool land = false;
     public PlayerStats playerScript;
+    public bool attackCompleted = false;
 
     public void SwitchState(BaseState newState)
     {
@@ -44,5 +47,26 @@ public class EnemyStateManager : MonoBehaviour
     public float GetDistanceToPlayer()
     {
         return (transform.position - player.transform.position).magnitude;
+    }
+    public void EnterNewState(int stage)
+    {
+        if (stage == 1)
+        {
+            SetSpeed(10);
+        }
+        if (stage == 2)
+        {
+
+        }
+        if (stage == 3)
+        {
+            SwitchState(agroState);
+            land = true;
+        }
+    }
+    public void CheckPlayerPosition()
+    {
+        transform.LookAt(player);
+        attackCompleted = true;
     }
 }

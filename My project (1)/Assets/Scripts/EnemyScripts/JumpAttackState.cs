@@ -13,7 +13,7 @@ public class JumpAttackState : BaseState
     }
     public override void ExitState(EnemyStateManager manager)
     {
-        manager.outline.OutlineWidth = 0;
+        manager.transform.position += manager.transform.forward * 1.7f;
     }
     public override void UpdateState(EnemyStateManager manager)
     {
@@ -27,15 +27,15 @@ public class JumpAttackState : BaseState
             {
                 timeRemaining = 0;
                 timerIsRunning = false;
-                manager.SetSpeed(30);
+                manager.outline.OutlineWidth = 0;
+                manager._animator.SetBool("J_attack", true);
             }
         }
         else
         {
-            if (manager.GetDistanceToPlayer() < manager.attackRange)
+            if (manager.GetDistanceToPlayer() < manager.attackRange*2f)
             {
-                manager.SwitchState(manager.attackState);
-                return;
+                manager.SetSpeed(0);
             }
         }
     }
