@@ -19072,7 +19072,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38035,10 +38035,10 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2101869821}
-        m_TargetAssemblyTypeName: GrabParenter, Assembly-CSharp
-        m_MethodName: OnGrab
-        m_Mode: 0
+      - m_Target: {fileID: 2101869826}
+        m_TargetAssemblyTypeName: ShowShroomHint, Assembly-CSharp
+        m_MethodName: ShowHint
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -38050,10 +38050,10 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2101869821}
-        m_TargetAssemblyTypeName: GrabParenter, Assembly-CSharp
-        m_MethodName: OnUngrab
-        m_Mode: 0
+      - m_Target: {fileID: 2101869826}
+        m_TargetAssemblyTypeName: ShowShroomHint, Assembly-CSharp
+        m_MethodName: HideHint
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
