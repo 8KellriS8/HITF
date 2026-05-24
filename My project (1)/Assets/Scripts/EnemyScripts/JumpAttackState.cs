@@ -13,7 +13,11 @@ public class JumpAttackState : BaseState
     }
     public override void ExitState(EnemyStateManager manager)
     {
-        manager.transform.position += manager.transform.forward * 1.7f;
+        if (manager.land == 12)
+        {
+            manager.transform.position += manager.transform.forward * 1.7f;
+        }
+        Debug.Log(manager.land);
     }
     public override void UpdateState(EnemyStateManager manager)
     {
@@ -29,6 +33,7 @@ public class JumpAttackState : BaseState
                 timerIsRunning = false;
                 manager.outline.OutlineWidth = 0;
                 manager._animator.SetBool("J_attack", true);
+                manager._animator.SetBool("IsTrigered", false);
             }
         }
         else

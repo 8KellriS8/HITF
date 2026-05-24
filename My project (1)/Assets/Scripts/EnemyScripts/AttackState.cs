@@ -13,7 +13,7 @@ public class AttackState : BaseState
     }
     public override void UpdateState(EnemyStateManager manager)
     {
-        if (manager.GetDistanceToPlayer() > manager.attackRange && manager.attackCompleted)
+        if (manager.GetDistanceToPlayer() > manager.attackRange && manager.attackCompleted && manager.canMove)
         {
             manager._animator.SetBool("InRadius", false);
             manager.SwitchState(manager.agroState);

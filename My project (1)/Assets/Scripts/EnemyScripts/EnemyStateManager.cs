@@ -3,7 +3,7 @@ using UnityEngine.AI;
 
 public class EnemyStateManager : MonoBehaviour
 {
-    BaseState current_state;
+    public BaseState current_state;
     public IdleState idleState = new IdleState();
     public AttackState attackState = new AttackState();
     public AgroState agroState = new AgroState();
@@ -15,7 +15,8 @@ public class EnemyStateManager : MonoBehaviour
     [SerializeField] public float attackRange = 1.25f;
     [SerializeField] public int _outlineWidth = 5;
     public Outline outline;
-    public bool land = false;
+    public bool canMove = true;
+    public int land = 0;
     public PlayerStats playerScript;
     public bool attackCompleted = false;
 
@@ -56,17 +57,26 @@ public class EnemyStateManager : MonoBehaviour
         }
         if (stage == 2)
         {
-
+            land = 2; //Не отпарировано
         }
         if (stage == 3)
         {
+            land += 10;
             SwitchState(agroState);
-            land = true;
         }
     }
     public void CheckPlayerPosition()
     {
         transform.LookAt(player);
         attackCompleted = true;
+    }
+    public void Continue_Movement()
+    {
+        _animator.SetBool("Got_Hit", false);
+        canMove = true;
+        if (current_state == agroState)
+        {
+            SetSpeed(speed);
+        }
     }
 }

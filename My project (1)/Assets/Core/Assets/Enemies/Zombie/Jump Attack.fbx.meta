@@ -62,7 +62,7 @@ ModelImporter:
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
-      - time: 0.42314252
+      - time: 0.5555627
         functionName: EnterNewState
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: a34b027d25882d24db6e401ab49b8bbd, type: 3}
