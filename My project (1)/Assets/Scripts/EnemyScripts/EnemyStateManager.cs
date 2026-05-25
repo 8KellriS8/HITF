@@ -14,6 +14,7 @@ public class EnemyStateManager : MonoBehaviour
     [SerializeField] public float speed = 1.1f;
     [SerializeField] public float attackRange = 1.25f;
     [SerializeField] public int _outlineWidth = 5;
+    [SerializeField] public int _enemyType;
     public Outline outline;
     public bool canMove = true;
     public int land = 0;
@@ -62,6 +63,7 @@ public class EnemyStateManager : MonoBehaviour
         if (stage == 3)
         {
             land += 10;
+            _animator.SetBool("InRadius", true);
             SwitchState(agroState);
         }
     }

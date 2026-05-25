@@ -17,7 +17,7 @@ public class AttackState : BaseState
         {
             manager._animator.SetBool("InRadius", false);
             manager.SwitchState(manager.agroState);
-            manager.attackCompleted = false;
+            manager.attackCompleted = true;
             return;
         }
     }
