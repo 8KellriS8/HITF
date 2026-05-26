@@ -15,10 +15,11 @@ public class JumpAttackState : BaseState
         {
             rangeScale = 2f;
         }
-        else if(manager._enemyType == 2)
+        if (manager._enemyType == 2)
         {
             rangeScale = 1.25f;
         }
+        Debug.Log(14);
     }
     public override void ExitState(EnemyStateManager manager)
     {
@@ -26,7 +27,7 @@ public class JumpAttackState : BaseState
         {
             manager.transform.position += manager.transform.forward * 1.7f;
         }
-        Debug.Log(manager.land);
+        manager.outline.OutlineWidth = 0;
     }
     public override void UpdateState(EnemyStateManager manager)
     {
@@ -40,7 +41,6 @@ public class JumpAttackState : BaseState
             {
                 timeRemaining = 0;
                 timerIsRunning = false;
-                manager.outline.OutlineWidth = 0;
                 manager._animator.SetBool("J_attack", true);
                 manager._animator.SetBool("IsTrigered", false);
             }
@@ -51,8 +51,8 @@ public class JumpAttackState : BaseState
             {
                 manager.SetSpeed(0);
                 manager._animator.SetBool("InRadius", true);
-                Debug.Log(manager._animator.GetBool("J_attack"));
             }
         }
+        Debug.Log(15);
     }
 }

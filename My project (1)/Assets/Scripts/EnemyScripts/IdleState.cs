@@ -13,10 +13,8 @@ public class IdleState : BaseState
     }
     public override void UpdateState(EnemyStateManager manager)
     {
-        if (manager.playerScript.noise > 50) 
-        {
-            manager.SwitchState(manager.jumpAttackState);
-            manager._animator.SetBool("IsTrigered", true);
-        }
+        Debug.Log(12);
+        manager.SwitchState(manager.jumpAttackState);
+        manager._animator.SetBool("IsTrigered", true);
     }
 }

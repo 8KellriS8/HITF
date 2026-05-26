@@ -4,18 +4,20 @@ using UnityEngine.AI;
 public class EnemyStateManager : MonoBehaviour
 {
     public BaseState current_state;
+    public float hp = 100f; 
     public IdleState idleState = new IdleState();
     public AttackState attackState = new AttackState();
     public AgroState agroState = new AgroState();
     public JumpAttackState jumpAttackState = new JumpAttackState();
     [SerializeField] public NavMeshAgent _agent;
     [SerializeField] public Animator _animator;
-    [SerializeField] public Transform player;
-    [SerializeField] public float speed = 1.1f;
+    public Transform player;
+    [SerializeField] public float speed = 0.7f;
     [SerializeField] public float attackRange = 1.25f;
     [SerializeField] public int _outlineWidth = 5;
     [SerializeField] public int _enemyType;
     public Outline outline;
+    public GameObject playerObject;
     public bool canMove = true;
     public int land = 0;
     public PlayerStats playerScript;
@@ -32,13 +34,18 @@ public class EnemyStateManager : MonoBehaviour
     }
     private void Start()
     {
+        if (_enemyType == 1) hp = 100f;
+        else hp = 120f;
         SwitchState(idleState);
         outline = GetComponent<Outline>();
-        GameObject playerObject = GameObject.FindWithTag("MainCamera");
+        playerObject = GameObject.FindWithTag("MainCamera");
         playerScript = playerObject.GetComponent<PlayerStats>();
+        player = playerObject.transform;
     }
     private void Update()
     {
+        Debug.Log(player, playerScript);
+        player = playerObject.transform;
         current_state.UpdateState(this);
         _agent.destination = player.position;
     }
@@ -54,11 +61,12 @@ public class EnemyStateManager : MonoBehaviour
     {
         if (stage == 1)
         {
-            SetSpeed(10);
+            SetSpeed(7.5f);
         }
         if (stage == 2)
         {
             land = 2; //Не отпарировано
+            SetSpeed(0);
         }
         if (stage == 3)
         {
@@ -80,5 +88,13 @@ public class EnemyStateManager : MonoBehaviour
         {
             SetSpeed(speed);
         }
+        else
+        {
+            SetSpeed(0);
+        }
+    }
+    public void UpdateHp()
+    {
+        _animator.SetFloat("HP", hp);
     }
 }

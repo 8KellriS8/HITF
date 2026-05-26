@@ -144,8 +144,8 @@ TextureImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 181470
-  packageName: Survivalist character
-  packageVersion: 1.2
-  assetPath: Assets/Survivalist/StarterAssets/Environment/Art/Textures/Grid_01_Emissive.png
-  uploadId: 762486
+  productId: 335800
+  packageName: VFX - Impact and Hit - Free
+  packageVersion: 1.0
+  assetPath: Assets/Core/Assets/Survivalist/StarterAssets/Environment/Art/Textures/Grid_01_Emissive.png
+  uploadId: 794602
