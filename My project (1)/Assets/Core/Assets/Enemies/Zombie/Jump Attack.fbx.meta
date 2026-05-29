@@ -62,14 +62,21 @@ ModelImporter:
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
-      - time: 0.5555627
+      - time: 0.42594934
+        functionName: EnterNewState
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: a34b027d25882d24db6e401ab49b8bbd, type: 3}
+        floatParameter: 0
+        intParameter: 4
+        messageOptions: 0
+      - time: 0.53883594
         functionName: EnterNewState
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: a34b027d25882d24db6e401ab49b8bbd, type: 3}
         floatParameter: 0
         intParameter: 2
         messageOptions: 0
-      - time: 0.9893667
+      - time: 0.7531858
         functionName: EnterNewState
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: a34b027d25882d24db6e401ab49b8bbd, type: 3}

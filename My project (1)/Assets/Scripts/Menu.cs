@@ -3,8 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
+
 public class Menu : MonoBehaviour
 {
+	public VRScreenFader fader;
 	public int menuScene;
 	[SerializeField] public GameObject panel;
 	public bool isSettingsVisible = false;
@@ -13,11 +15,15 @@ public class Menu : MonoBehaviour
 
 	public void ToMenu()
 	{
-		SceneManager.LoadScene(menuScene, LoadSceneMode.Single);
+		StartCoroutine(Menu1());
 	}
 	public void ToGame()
 	{
-		SceneManager.LoadScene(gameScene, LoadSceneMode.Single);
+		StartCoroutine(GameStart());
+	}
+	public void ToEnd()
+	{
+		SceneManager.LoadScene(2, LoadSceneMode.Single);
 	}
 	public void Exit()
 	{
@@ -27,5 +33,18 @@ public class Menu : MonoBehaviour
 	{
 		isSettingsVisible = (!isSettingsVisible);
 		panel.SetActive(isSettingsVisible);
+	}
+	IEnumerator GameStart()
+	{
+		fader.FadeOut(1f); // Ёкран гаснет за 0.5 секунды
+		PublicInfo.ending = true;
+		yield return new WaitForSeconds(1f);
+		SceneManager.LoadScene(gameScene, LoadSceneMode.Single);
+	}
+	IEnumerator Menu1()
+	{
+		fader.FadeOut(1f); // Ёкран гаснет за 0.5 секунды
+		yield return new WaitForSeconds(1f);
+		SceneManager.LoadScene(menuScene, LoadSceneMode.Single);
 	}
 }

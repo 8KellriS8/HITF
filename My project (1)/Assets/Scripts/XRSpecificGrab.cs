@@ -6,18 +6,30 @@ public class XRSpecificGrab : UnityEngine.XR.Interaction.Toolkit.Interactables.X
     [Header("Attach Points")]
     public Transform leftHandAttachTransform;
     public Transform rightHandAttachTransform;
-    
+    public AudioSource audioSource1;
+    public AudioSource audioSource2;
 
-    protected override void OnSelectEntered(SelectEnterEventArgs args)
+    // ИСПОЛЬЗУЕМ OnSelectEntering (вызывается ДО фиксации захвата)
+    protected override void OnSelectEntering(SelectEnterEventArgs args)
     {
+        // Проверяем тег у интектора (руки)
         if (args.interactorObject.transform.CompareTag("LeftHand"))
         {
-            attachTransform = leftHandAttachTransform;
+            if (leftHandAttachTransform != null)
+            {
+                attachTransform = leftHandAttachTransform;
+            }
         }
         else if (args.interactorObject.transform.CompareTag("RightHand"))
         {
-            attachTransform = rightHandAttachTransform;
+            if (rightHandAttachTransform != null)
+            {
+                attachTransform = rightHandAttachTransform;
+            }
         }
-        base.OnSelectEntered(args);
+
+        // Обязательно вызываем базовый метод ПОСЛЕ смены attachTransform
+        base.OnSelectEntering(args);
+        audioSource1.Play();
     }
 }

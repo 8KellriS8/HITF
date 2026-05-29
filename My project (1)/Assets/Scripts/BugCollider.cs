@@ -11,6 +11,7 @@ public class BugCollider : MonoBehaviour
         {
             parentScript.hasReached = false;
             other.gameObject.SetActive(false);
+            parentScript._animator.SetBool("Move", true);
         }
     }
 }

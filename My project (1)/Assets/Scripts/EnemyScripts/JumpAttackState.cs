@@ -10,6 +10,7 @@ public class JumpAttackState : BaseState
         manager.GetComponentInChildren<Renderer>().enabled = true;
         manager.outline.OutlineWidth = manager._outlineWidth;
         timerIsRunning = true;
+        manager.warning.Play();
         manager.transform.LookAt(manager.player);
         if (manager._enemyType == 1)
         {
@@ -19,13 +20,16 @@ public class JumpAttackState : BaseState
         {
             rangeScale = 1.25f;
         }
-        Debug.Log(14);
     }
     public override void ExitState(EnemyStateManager manager)
     {
-        if (manager.land == 12 && manager._enemyType == 1)
+        if (manager._enemyType == 1)
         {
-            manager.transform.position += manager.transform.forward * 1.7f;
+            if (manager.land == 12)
+            {
+                manager.transform.position += manager.transform.forward * 1.7f;
+            }
+            Debug.Log(manager.land);
         }
         manager.outline.OutlineWidth = 0;
     }
@@ -43,6 +47,10 @@ public class JumpAttackState : BaseState
                 timerIsRunning = false;
                 manager._animator.SetBool("J_attack", true);
                 manager._animator.SetBool("IsTrigered", false);
+                if (manager._enemyType == 2)
+                {
+                    manager.SetSpeed(10);
+                }
             }
         }
         else
@@ -53,6 +61,5 @@ public class JumpAttackState : BaseState
                 manager._animator.SetBool("InRadius", true);
             }
         }
-        Debug.Log(15);
     }
 }

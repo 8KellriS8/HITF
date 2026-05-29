@@ -17,6 +17,5 @@ public class GrabParenter : MonoBehaviour
     public void OnUngrab(SelectExitEventArgs args)
     {
         args.interactableObject.transform.SetParent(null);
-        playerScript.noise += 30f;
     }
 }

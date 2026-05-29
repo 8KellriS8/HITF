@@ -3,6 +3,13 @@ using UnityEngine.AI;
 
 public class EnemyStateManager : MonoBehaviour
 {
+    public AudioSource audioSource_hit;
+    public AudioSource audioSource_hardhit;
+    public AudioSource audioSource_takehit;
+    public AudioSource audioSource_takehit1;
+    public AudioSource warning;
+    public GameObject collider1;
+    public GameObject collider2;
     public BaseState current_state;
     public float hp = 100f; 
     public IdleState idleState = new IdleState();
@@ -19,7 +26,7 @@ public class EnemyStateManager : MonoBehaviour
     public Outline outline;
     public GameObject playerObject;
     public bool canMove = true;
-    public int land = 0;
+    public int land = 0; 
     public PlayerStats playerScript;
     public bool attackCompleted = false;
 
@@ -34,8 +41,9 @@ public class EnemyStateManager : MonoBehaviour
     }
     private void Start()
     {
-        if (_enemyType == 1) hp = 100f;
-        else hp = 120f;
+        if (_enemyType == 1) hp = 0f;
+        else hp = 20f;
+        hp += 100+PublicInfo.difficulty*25;
         SwitchState(idleState);
         outline = GetComponent<Outline>();
         playerObject = GameObject.FindWithTag("MainCamera");
@@ -61,18 +69,25 @@ public class EnemyStateManager : MonoBehaviour
     {
         if (stage == 1)
         {
-            SetSpeed(7.5f);
+            SetSpeed(9f);
         }
         if (stage == 2)
         {
             land = 2; //Не отпарировано
             SetSpeed(0);
+            audioSource_hardhit.Play();
+            collider1.SetActive(true);
         }
         if (stage == 3)
         {
             land += 10;
             _animator.SetBool("InRadius", true);
             SwitchState(agroState);
+            collider1.SetActive(false);
+        }
+        if (stage == 4)
+        {
+            SetSpeed(0);
         }
     }
     public void CheckPlayerPosition()
@@ -96,5 +111,15 @@ public class EnemyStateManager : MonoBehaviour
     public void UpdateHp()
     {
         _animator.SetFloat("HP", hp);
+    }
+    public void Attack(int Done)
+    {
+        if (Done==1)
+        {
+            collider2.SetActive(true);
+            audioSource_hit.Play();
+        }
+        else collider2.SetActive(false);
+       
     }
 }
