@@ -1,8 +1,9 @@
-using UnityEngine;
-using TMPro;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
 using UnityEngine.SceneManagement;
+using static Unity.Cinemachine.IInputAxisOwner.AxisDescriptor;
 
 public class BugMove : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class BugMove : MonoBehaviour
     public int count = 0;
     public TextMeshProUGUI light_text;
     public VRScreenFader fader;
+    public GameObject hints;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -47,7 +49,7 @@ public class BugMove : MonoBehaviour
     
     void Update()
     {   
-        sphere.radius = light.range*4;
+        sphere.radius = light.range*4.25f;
         float lighttext = light.range/6*100;
         if (lighttext > 100) lighttext = 100;
         light_text.text = Mathf.FloorToInt(lighttext).ToString();
@@ -56,7 +58,7 @@ public class BugMove : MonoBehaviour
             count = 0;
             if (light.range > 0.005f)
             {
-                light.range -= 0.0001f+(PublicInfo.difficulty - 1) * 0.00015f;
+                light.range -= 0.0001f+(PublicInfo.difficulty - 1) * 0.0001f;
             }
             foreach (Transform child in Entities)
             {
@@ -77,6 +79,7 @@ public class BugMove : MonoBehaviour
             {
                 light.range *= 1.05f;
             }
+            hints.SetActive(false);
             transform.position = Vector3.MoveTowards(transform.position, waypoints[currentWay]/5, speed * Time.deltaTime);
             float stoppingDistance = 1f;
             bug.transform.LookAt(waypoints[currentWay]/5);
@@ -125,10 +128,6 @@ public class BugMove : MonoBehaviour
         {
             maxIndexAllowed = 0;
         }
-        else if (currentWay == 3 || currentWay == 2)
-        {
-            maxIndexAllowed = 1;
-        }
         else 
         {
             maxIndexAllowed = 1; 
@@ -149,7 +148,7 @@ public class BugMove : MonoBehaviour
 	}
     IEnumerator LightOut()
     {
-		fader.FadeOut(2f); // Ёкран гаснет за 0.5 секунды
+		fader.FadeOut(12f); // Ёкран гаснет за 0.5 секунды
 		yield return new WaitForSeconds(12f);
 		player.CheckPosition();
 	}

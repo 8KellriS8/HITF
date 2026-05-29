@@ -27,7 +27,7 @@ public class JumpAttackState : BaseState
         {
             if (manager.land == 12)
             {
-                manager.transform.position += manager.transform.forward * 1.7f;
+                manager.transform.position += manager.transform.forward * 1.6f;
             }
             Debug.Log(manager.land);
         }
