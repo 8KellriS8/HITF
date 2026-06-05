@@ -69,6 +69,7 @@ public class EnemyStateManager : MonoBehaviour
     {
         if (stage == 1)
         {
+
             SetSpeed(9f);
         }
         if (stage == 2)
@@ -111,6 +112,12 @@ public class EnemyStateManager : MonoBehaviour
     public void UpdateHp()
     {
         _animator.SetFloat("HP", hp);
+        if (hp <= 0)
+        {
+            collider1.SetActive(false);
+            SetSpeed(0);
+            collider2.SetActive(false);
+        }
     }
     public void Attack(int Done)
     {

@@ -58,7 +58,7 @@ public class BugMove : MonoBehaviour
             count = 0;
             if (light.range > 0.005f)
             {
-                light.range -= 0.0001f+(PublicInfo.difficulty - 1) * 0.0001f;
+                light.range -= 0.00035f+(PublicInfo.difficulty - 1) * 0.0001f;
             }
             foreach (Transform child in Entities)
             {
@@ -128,9 +128,13 @@ public class BugMove : MonoBehaviour
         {
             maxIndexAllowed = 0;
         }
+        else if (currentWay == 2 || currentWay == 3)
+        {
+            maxIndexAllowed = 1;
+        }
         else 
         {
-            maxIndexAllowed = 1; 
+            maxIndexAllowed = 2; 
         }
         int randomIndex = Random.Range(0, maxIndexAllowed + 1);
         GameObject selectedEnemyPrefab = enemyPrefabs[randomIndex];

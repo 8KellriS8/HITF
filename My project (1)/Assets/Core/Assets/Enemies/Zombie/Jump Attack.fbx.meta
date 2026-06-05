@@ -35,7 +35,7 @@ ModelImporter:
       takeName: mixamo.com
       internalID: -203655887218126122
       firstFrame: 0
-      lastFrame: 89
+      lastFrame: 65
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -55,28 +55,28 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.14920661
+      - time: 0.20147142
         functionName: EnterNewState
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: a34b027d25882d24db6e401ab49b8bbd, type: 3}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
-      - time: 0.42594934
+      - time: 0.56532216
         functionName: EnterNewState
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: a34b027d25882d24db6e401ab49b8bbd, type: 3}
         floatParameter: 0
         intParameter: 4
         messageOptions: 0
-      - time: 0.53883594
+      - time: 0.7200206
         functionName: EnterNewState
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: a34b027d25882d24db6e401ab49b8bbd, type: 3}
         floatParameter: 0
         intParameter: 2
         messageOptions: 0
-      - time: 0.7531858
+      - time: 1
         functionName: EnterNewState
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: a34b027d25882d24db6e401ab49b8bbd, type: 3}

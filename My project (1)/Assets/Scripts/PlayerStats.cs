@@ -17,7 +17,7 @@ public class PlayerStats : MonoBehaviour
 
     public void TakeHit(int power)
     {
-        health -= 20*power;
+        health -= 15*power;
         Vector3 originalPosition1 = cam.transform.localPosition;
         //Shake(1f, 1f, originalPosition1);
         audioSource_hit.Play();
@@ -40,7 +40,7 @@ public class PlayerStats : MonoBehaviour
         lastPosition = transform.position;
         noise *= 0.99f;
         //Debug.Log(noise);
-        if (health<0)
+        if (health<=0)
         {
             StartCoroutine(Death());
         }
@@ -67,8 +67,9 @@ public class PlayerStats : MonoBehaviour
 
     IEnumerator StartSixMinuteTimer()
     {
-        yield return new WaitForSeconds(360f); 
+        yield return new WaitForSeconds(666f); 
         PublicInfo.ending = false;
+        Debug.Log("0000");
     }
     IEnumerator Death()
     {
